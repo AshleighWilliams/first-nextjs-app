@@ -1,5 +1,7 @@
 This developer portfolio was created using next.js:
 
+View: https://first-nextjs-app-seven.vercel.app/
+
 To run this code:
 1. cd to project folder
 2. mkdir .next
