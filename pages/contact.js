@@ -6,6 +6,12 @@ import Layout from "../components/Layout";
 //display layout and contact details with styling.
 const Contact = () => (
   <div>
+  
+  <Head async src="https://www.googletagmanager.com/gtag/js?id=G-5H189Y8QK5"></Head>
+    <Head>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+    gtag('config', 'G-5H189Y8QK5');
+    </Head>
+
     <Layout />
 
     <h1> Contact Me: </h1>
