@@ -8,12 +8,18 @@ import Layout from "../components/Layout";
 //display layout, with two coloumns of a portfoliopic and a about me paragraph (who I am, education, work history, passions) with styling.
 const About = () => (
     <div>
+    
+    <Head async src="https://www.googletagmanager.com/gtag/js?id=G-5H189Y8QK5"></Head>
+    <Head>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+    gtag('config', 'G-5H189Y8QK5');
+    </Head>
+
         <Layout />
         <div className="row">
         <div className="two columns main-col">
            <h1>About Me: </h1>
            <img src="/static/portfoliopic.jpg" alt="portfoliopic" />
-           <article> I am a young forward-thinking woman living in the beautiful city of Cape Town, South Africa. I attended Norman Henshilwood 
+           <article> I am a forward-thinking young woman living in the beautiful city of Cape Town, South Africa. I attended Norman Henshilwood 
             High School and matriculated in 2016 where I achieved a National Senior Certificate (Bachelor's Pass). Following that, I attended 
             the University of the Western Cape where I graduated in 2019 with a Bachelor's of Commerce Degree (Cum Laude) and was chosen as a 
             member of the Golden Key International Honor Society. However, I then branched in to the clothing industry where I completed a six 
