@@ -8,6 +8,12 @@ import Link from 'next/link';
 //display layout and my projects with links to it and styling of this page.
 const Project = () => (
     <div>
+    
+    <Head async src="https://www.googletagmanager.com/gtag/js?id=G-5H189Y8QK5"></Head>
+    <Head>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+    gtag('config', 'G-5H189Y8QK5');
+    </Head>
+
         <Layout />
         <h1>My Projects:</h1>
         <div className="row">
