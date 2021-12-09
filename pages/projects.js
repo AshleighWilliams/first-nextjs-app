@@ -5,6 +5,8 @@ import Layout from "../components/Layout";
 //import link from next folder.
 import Link from 'next/link';
 
+import Head from 'next/head';
+
 //display layout and my projects with links to it and styling of this page.
 const Project = () => (
     <div>
