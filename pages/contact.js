@@ -3,6 +3,8 @@
 //import layout from components.
 import Layout from "../components/Layout";
 
+import Head from 'next/head';
+
 //display layout and contact details with styling.
 const Contact = () => (
   <div>
