@@ -5,6 +5,8 @@ import Image from "/static/portfoliopic.jpg";
 //import layout from components.
 import Layout from "../components/Layout";
 
+import Head from 'next/head';
+
 //display layout, with two coloumns of a portfoliopic and a about me paragraph (who I am, education, work history, passions) with styling.
 const About = () => (
     <div>
