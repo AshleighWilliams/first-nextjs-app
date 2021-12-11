@@ -5,23 +5,9 @@ import Layout from "../components/Layout";
 //import link from next folder.
 import Link from 'next/link';
 
-import Head from 'next/head';
-
 //display layout and my projects with links to it and styling of this page.
 const Project = () => (
     <div>
-    
-    <Head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5H189Y8QK5"></script>
-    <script>
-          window.dataLayer = window.dataLayer || []; 
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js',new Date());
-
-          gtag('config', 'G-5H189Y8QK5');
-    </script>
-    </Head>
-
         <Layout />
         <h1>My Projects:</h1>
         <div className="row">
