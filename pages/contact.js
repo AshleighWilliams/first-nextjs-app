@@ -3,23 +3,9 @@
 //import layout from components.
 import Layout from "../components/Layout";
 
-import Head from 'next/head';
-
 //display layout and contact details with styling.
 const Contact = () => (
   <div>
-  
-    <Head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5H189Y8QK5"></script>
-    <script>
-          window.dataLayer = window.dataLayer || []; 
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js',new Date());
-
-          gtag('config', 'G-5H189Y8QK5');
-    </script>
-    </Head>
-
     <Layout />
 
     <h1> Contact Me: </h1>
