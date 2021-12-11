@@ -5,23 +5,9 @@ import Image from "/static/portfoliopic.jpg";
 //import layout from components.
 import Layout from "../components/Layout";
 
-import Head from 'next/head';
-
 //display layout, with two coloumns of a portfoliopic and a about me paragraph (who I am, education, work history, passions) with styling.
 const About = () => (
     <div>
-    
-     <Head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5H189Y8QK5"></script>
-    <script>
-          window.dataLayer = window.dataLayer || []; 
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js',new Date());
-
-          gtag('config', 'G-5H189Y8QK5');
-    </script>
-    </Head>
-
         <Layout />
         <div className="row">
         <div className="two columns main-col">
