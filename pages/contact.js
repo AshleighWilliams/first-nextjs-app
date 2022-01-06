@@ -7,34 +7,43 @@ import Layout from "../components/Layout";
 const Contact = () => (
   <div>
     <Layout />
-
-    <h1> Contact Me: </h1>
-    <div className="row">
-        <div className="two columns main-col">
-            <h4> ashleighjadewilliams5@gmail.com </h4>
-        <div className="two columns main-col">
-            <h4> 084 622 1956 </h4>
-        </div>
-        </div>
+    <div>
+      <br/>
+      <br/>
+      <img src="/static/blog.jpg" alt="portfoliopic" />
     </div>
-
-    <style jsx>{`
-    h1 {
-      font-family: 'DM Serif Display', serif;
-      font-size: 4rem;
-      text-align: center;
-      padding: 4rem 0 2rem 0;
-     }
-     h4 {
-      font-family: 'DM Serif Display', serif;
-      font-size: 1.6rem;
-      text-align: center;
-      caption-side: top;
-     }
-     div {
-        margin: 0 auto;
-    }
-    `}</style>
+    <br/>
+    <div className='one'>
+      <h1>Contact Me:</h1>
+      <small>Email- ashleighjadewilliams5@gmail.com </small>
+      <br/>
+      <br/>
+      <small>Phone- 084 622 1956 </small>
+    </div>
+        <style jsx>{`
+        img {
+            width: 300px;
+            height: 340px;
+            float: left;
+        }
+        h1 {
+          font-family: 'DM Serif Display', serif;
+          font-size: 4rem;
+          text-align: center;
+          padding: 4rem 0 2rem 0;
+          color: white;
+         }
+        small {
+            font-family: 'DM Serif Display', serif;
+            font-size: 2rem;
+            padding: 4rem;
+            color: white;
+        }
+        .one {
+            background-color: black;
+        }
+        `}
+        </style>
 
   </div>
 )
