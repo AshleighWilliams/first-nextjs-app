@@ -9,19 +9,29 @@ import Link from 'next/link';
 const Project = () => (
     <div>
         <Layout />
-        <h1>My Projects:</h1>
+        <div className='one'>
+                <h1>My Projects:</h1>
+        </div>
+        <br/>
         <div className="row">
             <div className="two columns main-col">
-                <h4> An iTunes Search Api Created Using React.js and Express</h4>
-                <Link href="https://itunessearchwithapi.herokuapp.com/">
-                    <a> View Demo </a>
-                </Link>
+            <a href="https://itunessearchwithapi.herokuapp.com/">
+                <img className='image' src="/static/itunes.jpg" alt="itunesapp" />
+                An iTunes Search Api Created Using React.js and Express
+            </a>
             <hr/>
             <div className="two columns main-col">
-                <h4> A Memory Card Game Created Using React.js</h4>
-                <Link href=" https://ancient-sands-62481.herokuapp.com">
-                    <a> View Demo </a>
-                </Link>        
+            <a href="https://ancient-sands-62481.herokuapp.com">
+                <img className='image' src="/static/game.jpg" alt="game" />
+                A Memory Card Game Created Using React.js
+            </a> 
+            <hr/>
+            <div className="two columns main-col">
+            <a href="https://appointment-app-for-doctors.herokuapp.com/">
+                <img className='image' src="/static/appointment.jpg" alt="appointment" />
+                An Appointment App for Doctor's Created Using MERN Stack
+            </a>      
+            </div>     
             </div>
             </div>
         </div>
@@ -34,18 +44,18 @@ const Project = () => (
         </h6>
 
         <style jsx> {`
+        .image {
+            width: 400px;
+            height: 200px;s
+        }
         h1 {
             font-family: 'DM Serif Display', serif;
-            font-size: 4rem;
+            color: white;
             text-align: center;
-            padding: 4rem 0 2rem 0;
+            padding: 3rem 0 2rem 0;
         }
-        h4 {
-            font-family: 'DM Serif Display', serif;
-            font-size: 1.6rem;
-            text-align: center;
-            caption-side: top;
-            color: black;
+        .one {
+            background-color: black;
         }
         div {
             margin: 0 auto;
