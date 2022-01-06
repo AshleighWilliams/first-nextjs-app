@@ -16,19 +16,19 @@ const Project = () => (
         <div className="row">
             <div className="two columns main-col">
             <a href="https://itunessearchwithapi.herokuapp.com/">
-                <img className='image' src="/static/itunes.jpg" alt="itunesapp" />
+                <img className='image' src="/static/itunes.JPG" alt="itunesapp" />
                 An iTunes Search Api Created Using React.js and Express
             </a>
             <hr/>
             <div className="two columns main-col">
             <a href="https://ancient-sands-62481.herokuapp.com">
-                <img className='image' src="/static/game.jpg" alt="game" />
+                <img className='image' src="/static/game.JPG" alt="game" />
                 A Memory Card Game Created Using React.js
             </a> 
             <hr/>
             <div className="two columns main-col">
             <a href="https://appointment-app-for-doctors.herokuapp.com/">
-                <img className='image' src="/static/appointment.jpg" alt="appointment" />
+                <img className='image' src="/static/appointment.JPG" alt="appointment" />
                 An Appointment App for Doctor's Created Using MERN Stack
             </a>      
             </div>     
