@@ -14,14 +14,13 @@ const Header = () => {
             <a > ABOUT </a>
         </Link>
         <Link href="/projects">
-            <a > PROJECTS </a>
+            <a > PROJECTS</a>
         </Link>
         <Link href="/contact">
             <a > CONTACT </a>
         </Link>
 
-        <style jsx> 
-            {`
+        <style jsx> {`
             div {
                 padding: 2rem;
                 background-color: white;
@@ -31,7 +30,8 @@ const Header = () => {
                 text-decoration: none;
                 margin: 3px;
                 color: black;
-                font-size: 1rem;
+                font-size: 1.5rem;
+                font-weight: bold;
                 font-family: 'DM Serif Display', serif;
             }
             a :hover {
