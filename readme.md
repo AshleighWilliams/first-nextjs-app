@@ -30,7 +30,7 @@ View Demo: https://first-nextjs-app-seven.vercel.app/
 - This web app allows users to get to know about me and my projects as well as have access to contact me. 
 
 Users can click on and view the 'About', 'Projects' and 'Contact' pages from the homepage:
-
+![Capture1](https://user-images.githubusercontent.com/90770698/149538734-0e2deea6-f608-4306-9940-f29513924aad.JPG)
 
 ## Credits
 -created following completion of my full stack web development bootcamp course with Hyperiondev Software Institute
