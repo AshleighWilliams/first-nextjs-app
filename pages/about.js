@@ -35,8 +35,8 @@ const About = () => (
             month internship in 2020 as a Garment Technologist. Briefly after this, the Covid-19 pandemic hit. This is when I started thinking 
             about my future in these unprecedented times and how I can advance with the times while still fulfilling my passion of creating. The 
             key word here was technology. I grew curious about web development, software engineering and UI/UX design. This is when I started my 
-            six month Full Stack Web Development bootcamp course at HyperionDev Software Institute. I am currently in my last month of completing 
-            this course and I am proud to say that I am able to  code and create websites, applications and games, something with which I never 
+            six month Full Stack Web Development bootcamp course at HyperionDev Software Institute. I recently completed 
+            this course with a 100% average grade and I am proud to say that I am able to  code and create websites, applications and games, something with which I never 
             thought I would be able to do and enjoy as much as I do. I am excited and eager about future opportunities to build on my career. </article>
         </div>
         </div>
